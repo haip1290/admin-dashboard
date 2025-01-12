@@ -1,3 +1,13 @@
+
+.roboto-my {
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -17,6 +27,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr 4fr;
+    font-family: 'Roboto';
 }
 
 .center-content {
