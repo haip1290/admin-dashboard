@@ -127,6 +127,11 @@ header {
     gap: 1rem;
 }
 
+.notice-bar {
+    justify-content: flex-end;
+    padding-right: 2rem;
+}
+
 .search-bar > div .avatar {
     flex-shrink: 0;
 }
@@ -146,6 +151,8 @@ header .greeting {
 
 header .btns {
     padding-left: 1rem;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .btns button {
@@ -164,6 +171,10 @@ header .user-info {
     flex-direction: row;
     align-items: center;
     gap: 1rem;
+}
+
+.user-info .username {
+    font-size: 2rem;
 }
 
 .avatar img {
